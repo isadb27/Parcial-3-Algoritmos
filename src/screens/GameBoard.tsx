@@ -5,7 +5,7 @@ import Cell from "../components/Cell";
 import { signOut } from "firebase/auth";
 import { auth } from "../services/firebase";
 
-const SIZE = 50; 
+const SIZE = 500; 
 
 const GameBoard: React.FC = () => {
   const { cells, claimCell } = useBoardStore();
